@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Travel Planner Application</string>
+	<string name="newPlan">Create Travel CheckList</string>
+    <string name="existingPlan">Show Travel CheckLists</string>
+    <string name="travelName">Travel Name</string>
+    <string name="travelMode">Travel Mode</string>
+    <string name="travelType">Travel Type</string>
+    <string name="travelDate">Travel Date</string>
+    <string name="travelTime">Travel Time</string>
+    <string name="travelFrom">Travel From</string>
+    <string name="travelTo">Travel To</string>
+    <string name="AddTravelPlanButton">Add</string>
+    <string name="CancelTravelPlanButton">Cancel</string>
+    <string name="addCheckListItem">Add CheckList Item</string>
+    <string name="addChecklistButton">Add CheckList Item</string>
+   <string name="travel_type">Choose Travel Type</string>
+    <string name="travel_mode">Choose Travel Mode</string>
+    <string name="travel_time">Choose Travel Time</string>
+    <string name="Map">Map</string>
+     
+     
+</resources>

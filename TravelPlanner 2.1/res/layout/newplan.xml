@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/widget54"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background"
+android:padding="10px"
+>
+<TableRow>
+<TextView
+android:id="@+id/travelName"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelName"/>
+<EditText
+android:id="@+id/travelNameEntry"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:width ="100px"
+android:background="@android:drawable/editbox_background"/>
+
+
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelMode"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelMode"/>
+
+<Spinner 
+        android:id="@+id/travelModeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/travel_mode"
+    />
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelType"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelType"/>
+<Spinner 
+        android:id="@+id/travelTypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/travel_type"
+    />
+
+</TableRow> 
+<TableRow> 
+<Button android:id="@+id/pickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Date"/> 
+
+<TextView android:id="@+id/dateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text=""/>
+    
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTime"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelTime"/>
+<Spinner 
+        android:id="@+id/travelTimeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/travel_time"
+    />
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelFrom"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelFrom"/>
+<EditText
+android:id="@+id/travelFromEntry"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@android:drawable/editbox_background"/>
+<Button
+android:id="@+id/MapFrom"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/Map" />
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTo"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceMedium" 
+android:text="@string/travelTo"/>
+<EditText
+android:id="@+id/travelToEntry"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@android:drawable/editbox_background"/>
+<Button
+android:id="@+id/MapTo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/Map" />
+
+
+</TableRow> 
+<TableRow> 
+</TableRow> 
+<TableRow> 
+<Button
+android:id="@+id/addTravelPlanButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/AddTravelPlanButton" />
+<Button
+android:id="@+id/cancelTravelPlanButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/CancelTravelPlanButton" />
+</TableRow> 
+</TableLayout>
+</ScrollView>

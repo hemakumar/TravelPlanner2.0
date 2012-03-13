@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/widget54"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background"
+android:padding="10px"
+android:id="@+id/tableLayout"
+>
+<TableRow>
+<TextView
+android:id="@+id/travelName"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:width ="120px"
+android:text="@string/travelName"/>
+<TextView
+android:id="@+id/travelNameText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:width ="120px"
+android:text=""/>
+
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelMode"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelMode"/>
+<TextView
+android:id="@+id/travelModeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelType"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelType"/>
+<TextView
+android:id="@+id/travelTypeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelDate"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelDate"/>
+<TextView
+android:id="@+id/travelDateText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTime"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelTime"/>
+<TextView
+android:id="@+id/travelTimeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelFrom"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelFrom"/>
+<TextView
+android:id="@+id/travelFromText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTo"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelTo"/>
+<TextView
+android:id="@+id/travelToText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+
+<TableRow> 
+</TableRow> 
+<TableRow> 
+<Button
+android:id="@+id/addChecklistButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/addChecklistButton" />
+<Button
+android:id="@+id/cancelTravelPlanButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/CancelTravelPlanButton" />
+</TableRow> 
+</TableLayout>
+</ScrollView>

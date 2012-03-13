@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainlayout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:clickable="true"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:apiKey="0KajOGYkO0h3Ng6Cdw719A0Faax1UaioK1QpagQ" />
+		
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#FFFFFF"
+  android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:layout_gravity="center_vertical" android:stretchColumns="2" android:orientation="horizontal">
+  <TableRow>
+  <Button android:id="@+id/btnSearch" android:text="Search" android:layout_column="1"
+    android:gravity="left" android:layout_height="wrap_content"
+     android:padding="3dip"
+      />
+   <EditText android:id="@+id/txtMapSearch" 
+    android:layout_column="2" 
+    android:gravity="left" 
+    android:width = "80dip"
+      />
+     
+     
+     
+    <Button android:id="@+id/btnDone" android:text="Done" android:layout_column="3"
+    android:gravity="left" android:layout_height="wrap_content"
+     android:padding="10dip"
+      />
+  </TableRow>
+ </TableLayout>
+
+	
+		<!-- zooming control -->
+	  <LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        android:paddingBottom="58px"
+        /> 
+        
+
+</RelativeLayout>
+		
+		
+	

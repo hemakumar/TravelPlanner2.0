@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    >
+     <LinearLayout
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"  >
+
+    <TableLayout
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:stretchColumns="*" >
+<TableRow>
+<Button android:text="@string/existingPlan" android:id="@+id/existingPlanID" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</TableRow>
+<TableRow>
+<Button android:text="@string/newPlan" android:id="@+id/newPlanID" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</TableRow>
+</TableLayout>
+</LinearLayout>
+</LinearLayout>
