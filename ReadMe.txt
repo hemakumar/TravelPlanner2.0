@@ -2,10 +2,8 @@
 Open-Android-TravelPlanner 
 Copyright � 2012
 
-The Open-Android-TravelPlanner  
+The OpenSourced-Android-TravelPlanner  
 Author@Hema Kumar
-
-This is our Open Android Travel Planner. It is built on the Android 2.2 Platform.
 
 Travel Planner is an android application that helps you to organize your trip. It gives you a checklist which can remind you with a list of necessary things might want to carry with you. It can also be served as a reminder of the warnings or any events that you want to attend at the destination of your travel.
 This application can be used by people of all ages, and allows multiple users as a separate checklist can be created by everyone in the family.
