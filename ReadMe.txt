@@ -1,9 +1,9 @@
 ***************************************************************************************************************************
 Open-Android-TravelPlanner 
-Copyright © 2012
+Copyright ï¿½ 2012
 
-The Open-Android-TravelPlanner Group consists of: 
-Hema Kumar
+The Open-Android-TravelPlanner  
+Author@Hema Kumar
 
 This is our Open Android Travel Planner. It is built on the Android 2.2 Platform.
 
@@ -22,9 +22,9 @@ This is a modification of my old app and I am trying to reuse my old application
 
 FUTURE ENHANCEMENTS
 -------------------
- •Presently TravelPlanner is saving all the data that you entered in its database and remembers that for you. Later when you open the checklist it gives that data back to you.
- •Addition of google maps in it so that it also gives you the map. Still addition of feature which can give distance and temperature of the destination needs to be taken care of.
- •In future, we also plan to add a way in which this application can extract the names of the people from the contact list living in that Destination area.
+ ï¿½Presently TravelPlanner is saving all the data that you entered in its database and remembers that for you. Later when you open the checklist it gives that data back to you.
+ ï¿½Addition of google maps in it so that it also gives you the map. Still addition of feature which can give distance and temperature of the destination needs to be taken care of.
+ ï¿½In future, I also plan to add a way in which this application can extract the names of the people from the contact list living in that Destination area.
 
 
 PROJECT REPOSITORY
@@ -46,7 +46,7 @@ Copyright and License Information
 ---------------------------------
 Copyright(C) 2012 Hema Kumar 
 
-License ()
+License (https://github.com/hemakumar/TravelPlanner2.0/blob/master/License.txt)
 
 
 Resources
@@ -64,6 +64,7 @@ http://www.vogella.de/articles/Eclipse/article.html
 http://www.vogella.de/articles/Android/article.html#overview
 
 Special Thanks to "You tube videos" which helped us a lot understanding Android platform. (http://www.youtube.com/user/CornboyzAndroid#p/a/9E21BFF408167ED6/0/xtsyrKdPZVw)
+
 
 For any questions please contact
 -------------------------------- 
