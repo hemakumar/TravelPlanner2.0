@@ -37,9 +37,9 @@ PLATFORM
 
 Android device with version (2.2).
 
-Installation Help
+Direct Link to apk
 -----------------
-
+https://github.com/hemakumar/TravelPlanner2.0/blob/master/TravelPlanner%202.1/bin/TravelPlanner%202.1.apk
 
 
 Copyright and License Information
